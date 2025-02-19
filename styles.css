@@ -16,8 +16,6 @@ ul {
     height: 37px;
     display: flex;
     align-items: center;
-    margin-right: 40px;
-    margin-bottom: 160px;
 } 
 
 header {
@@ -29,6 +27,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items:start;
+    gap: 37px;
+    margin-bottom: 81px;
 }
 
 .logo_bar_name {
@@ -77,6 +77,8 @@ li {
     padding-left: 155px;
     display: flex;
     flex-direction: row;
+    padding-right: 155px;
+    align-items: center
 }
 
 .first_list_block_header {
@@ -90,6 +92,7 @@ li {
 .first_list_block_button_bar {
     display: flex;
     flex-direction: row;
+    align-items:center
 }
 
 .first_list_block_book {
@@ -102,11 +105,11 @@ li {
     border:none;
     background: none;
     color: #0070A0;
-
+    margin-right: 3px;
 }
 
 
 
 .first_list_block_text {
-    margin-right: 153px;
+    margin-right: 170.38px;
 }
