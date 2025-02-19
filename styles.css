@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+a {
+    all: unset; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo_bar {
+    width: 106px;
+    height: 37px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 40px;
+    margin-bottom: 160px;
+} 
+
+header {
+    padding-left: 155px;
+    padding-top: 15px;
+    padding-right: 155px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_bar_name {
+    width: 65.75px;
+    height: 20.92px;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 448px;
+}
+
+li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.nav_bar_feautures {
+    margin-right: 27px;
+}
+
+.nav_bar_pricing {
+    margin-right: 27px;
+}
+
+.nav_bar_integrations {
+    margin-right: 27px
+}
+
+.Sign_bar_sign {
+    width: 89px;
+    height: 36px;
+    border: none;
+    background: none;
+    color: #0070A0
+}
+
+.Sign_bar_demo {
+    width: 139px;
+    height: 36px;
+    border:none;
+    color:white;
+    background-color:#0070A0;
+    
+}
+
+.first_list_block {
+    padding-left: 155px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first_list_block_header {
+    margin-bottom: 21px;
+}
+
+.first_list_block_article {
+    margin-bottom: 32px;
+}
+
+.first_list_block_button_bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.first_list_block_book {
+    width: 174px;
+    height: 43px;
+    margin-right: 24px;
+}
+
+.first_list_block_learn {
+    border:none;
+    background: none;
+    color: #0070A0;
+
+}
+
+
+
+.first_list_block_text {
+    margin-right: 153px;
+}
