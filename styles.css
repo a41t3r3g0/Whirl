@@ -78,7 +78,8 @@ li {
     display: flex;
     flex-direction: row;
     padding-right: 155px;
-    align-items: center
+    align-items: center;
+    margin-bottom: 102px
 }
 
 .first_list_block_header {
@@ -108,8 +109,56 @@ li {
     margin-right: 3px;
 }
 
-
-
 .first_list_block_text {
     margin-right: 170.38px;
+}
+
+/* низ первой страницы */
+
+.reputation {
+    width: 100%;
+    height: 96.81px;
+    display: flex;
+    flex-direction: column;
+    gap: 23.58px;
+    margin-bottom: 160px;
+}
+
+.reputation_logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 60px;
+}
+
+.reputation_paragraph {
+    text-align: center;
+}
+
+.multicolored_blocks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    justify-content: center;
+}
+
+.multicolored_blocks-Yellow_block {
+    background-color: #FAEA73;
+    width: 355px;
+    height: 250px;
+}
+
+.multicolored_blocks-Blue_block {
+    width: 355px;
+    height: 250px;
+    background-color: #CCEFF6;
+}
+
+.multi-colored_blocks-Pink_block {
+    width: 355px;
+    height: 250px;
+    background-color: #F7CEDC;
 }
