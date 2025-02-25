@@ -143,22 +143,255 @@ li {
     flex-direction: row;
     gap: 33px;
     justify-content: center;
+    margin-bottom: 198.61px;
+    padding-left: 155px;
+    padding-right: 155px;
 }
 
 .multicolored_blocks-Yellow_block {
     background-color: #FAEA73;
     width: 355px;
-    height: 250px;
+    padding-top: 32px;
+    padding-left: 32px;
 }
 
 .multicolored_blocks-Blue_block {
     width: 355px;
     height: 250px;
     background-color: #CCEFF6;
+    padding-top: 32px;
+    padding-left: 32px;
 }
 
 .multi-colored_blocks-Pink_block {
     width: 355px;
     height: 250px;
     background-color: #F7CEDC;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+span {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* Вторая страница */
+
+.second_list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 225.5px;
+}
+
+.second_list_header {
+    margin-bottom: 61.61px;
+    width: 650px;
+}
+
+.second_list {
+    padding-left: 155px;
+}
+
+.second_list_block-list {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+}
+
+.second_list_block-list-first_point {
+    width: 450px;
+    height: 157px;
+    display: flex;
+    padding-left: 15.99px;
+    padding-top: 17px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second_list_block-list-first_point_image {
+    margin-right: 16px;
+}
+
+.second_list_block-list-first_point_header {
+    margin-right: 149px;
+}
+
+.second_list_block-list-first_point_logo_and_header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+.second_list_block-list-first_point_text {
+    width: 363px;
+    padding-left: 37px;
+}
+
+hr {
+    border:none;
+    border-top: 1px solid #C2CDD8;
+    width: 449.83px;
+}
+
+.second_list_line {
+    margin-bottom: 0.89px;
+}
+
+.second_list_block-list-second_point {
+    width: 450px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    color: #626A72
+}
+
+.second_list_block-list-second_point_header {
+    margin-right: 215.83px;
+}
+
+.second_list_block-list-second_point_logo {
+    margin-right: 16px;
+}
+
+.second_list_block-list-third_point {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    color: #626A72;
+}
+
+.second_list_block-list-third_point_logo {
+    margin-right: 16px;
+}
+
+.second_list_block-list-third_point_text {
+    margin-right: 215.83px;
+}
+
+.second_list_block-list-fourth_point{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    color: #626A72;
+}
+
+.second_list_block-list-fourth_point_logo {
+    margin-right: 22.55px;
+}
+
+.second_list_block-list-fourth_point_header {
+    margin-right: 215.83px;
+}
+
+.second_list_block-list_and_header {
+    width: 650px;
+}
+
+.second_list_image {
+    width: 481px;
+    height: 479px;
+}
+
+/* Блок About */
+
+.second_list_about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 155px;
+    padding-right:155px ;
+    margin-bottom: 119px;
+}
+
+.second_list_about_header {
+    width: 300px;
+    height: 218px;
+    margin-right: 135px;
+}
+
+.second_list_about_list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.about_block {
+    width: 222.66px;
+    height: 218px;
+}
+
+.about_block_header {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.second_list_about_first-point {
+   padding-top: 62.61px;
+
+}
+
+.second_list_about_img {
+    margin-bottom: 17px;
+}
+
+/* Третья страница - с заливкой синим */
+
+.third_list {
+    width: 100%;
+    background-color:#0070A0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 155px;
+    padding-top: 80px;
+}
+
+.third_list_block-text_header-text_header {
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.third_list_block-text_header-text_paragraph {
+    margin-bottom: 16.88px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.third_list_block {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    gap: 8px;
+}
+
+.third_list-image {
+    margin-right: 187px;
+}
+
+.third_list_block-text-list {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 27px;
+}
+
+.third_list_block-text_button {
+    width: 176px;
+    height: 43px;
+    background-color: #0070A0;
+    color: #FFFFFF;
+    border: none;
 }
