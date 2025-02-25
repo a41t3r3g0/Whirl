@@ -356,6 +356,7 @@ hr {
     color: #FFFFFF;
     padding-left: 155px;
     padding-top: 80px;
+    margin-bottom: 120px;
 }
 
 .third_list_block-text_header-text_header {
@@ -394,4 +395,52 @@ hr {
     background-color: #0070A0;
     color: #FFFFFF;
     border: none;
+}
+
+/* 4 страница */
+
+.fourth_list {
+    padding-left: 155px;
+}
+
+.fourth_list-benefits {
+    height: 218px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fourth_list-top_text {
+    margin-bottom: 65.36px;
+}
+
+.fourth_list-top_text-header {
+    margin-bottom: 18px;
+    font-weight:400;
+    font-size: 42px;
+}
+
+.fourth_list-top_text-paragraph {
+    font-size: 18px;
+}
+
+.fourth_list-benefits_first-point-image {
+    margin-bottom: 7px;
+}
+
+.fourth_list-benefits_first-point-header {
+
+}
+
+.fourth_list-benefits-header {
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.fourth_list-benefits-image {
+
+}
+
+.fourth_list-benefits-blocks {
+    width: 234.5px;
+    height: 218px;
 }
