@@ -401,6 +401,7 @@ hr {
 
 .fourth_list {
     padding-left: 155px;
+    margin-bottom: 120px;
 }
 
 .fourth_list-benefits {
@@ -443,4 +444,119 @@ hr {
 .fourth_list-benefits-blocks {
     width: 234.5px;
     height: 218px;
+}
+
+/* 5 страница */
+
+.fifth_list {
+    margin-bottom: 160px;
+    padding-left: 155px;
+}
+
+.fifth_list-top-text {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.fifth_list_image-and-text_first-point {
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth_list_image-and-text-block {
+    width: 355px;
+    height: 487px;
+}
+
+.fifth_list_image-and-text {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.fifth_list-top-text-header {
+    font-size: 42px;
+    font-weight: 400;
+    margin-right: 423px;
+}
+
+.fifth_list-top-text-button {
+    background:none;
+    border: none;
+    color: #0070A0;
+    font-size: 17px;
+}
+
+.fifth_list_image-and-text-pictures {
+    width: 355px;
+    height: 238px;
+    margin-bottom: 25px;
+}
+
+.fifth_list_image-and-text_tags {
+    background-color:#E6F7FF;
+    color: #2C90C9;
+    text-align: center;
+    margin-bottom: 8px;
+    width: 122px;
+    height: 22px;
+}
+
+.fifth_list_image-and-text_third-tag {
+    width: 60px;
+    height: 20px;
+}
+
+
+
+.fifth_list_image-and-text_headers {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.fifth_list_image-and-text_paragraph {
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.fifth_list_image-and-text_date {
+    font-size: 12px;
+}
+
+/* Предложение */
+
+.offer-header {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.offer-paragraph {
+    font-size: 18px;
+    margin-bottom: 33px;
+}
+
+.offer-button {
+    margin-bottom: 11.98px;
+}
+
+.offer_benefits {
+    display: flex;
+    gap: 32px;
+    color: #626A72
+}
+
+.offer {
+    width: 100%;
+    padding-left: 155px;
+}
+
+.offer-blue-box {
+    width: 1130px;
+    height: 370px;
+    background-color: #E6F7FF;
+    padding-top: 63px;
+    padding-left: 64px;
 }
