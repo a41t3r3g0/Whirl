@@ -575,8 +575,13 @@ hr {
 
 footer {
     padding-left: 155px;
+    padding-right: 155px;
+}
+
+.footer_block {
     display: flex;
     flex-direction: row;
+    margin-bottom: 64px;
 }
 
 .footer_links {
@@ -610,4 +615,11 @@ footer {
 
 .footer_link_first-list-item-newsletter {
     margin-bottom: 16px;
+}
+
+.footer_line {
+    color: #DEE5EB;
+    width: 1130px;
+    height: 1px;
+    margin-bottom: 35.98px;
 }
