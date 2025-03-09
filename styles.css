@@ -551,6 +551,7 @@ hr {
 .offer {
     width: 100%;
     padding-left: 155px;
+    padding-bottom: 127.98px;
 }
 
 .offer-blue-box {
@@ -559,4 +560,45 @@ hr {
     background-color: #E6F7FF;
     padding-top: 63px;
     padding-left: 64px;
+}
+
+/* Footer */
+
+footer {
+    padding-left: 155px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_links {
+    color:blue;
+}
+
+.footer_logo-block {
+    margin-bottom: 20px;
+   
+}
+
+.footer_logo-block_icon_and_autor {
+    margin-right: 297px;
+}
+
+.footer_link_list-item {
+    color: #626A72;
+}
+
+.footer_link_first-list-item {
+    margin-bottom: 16px;
+}
+
+.footer_link_first-column {
+    margin-right: 214px;
+}
+
+.footer_link_second-column {
+    margin-right: 184px;
+}
+
+.footer_link_first-list-item-newsletter {
+    margin-bottom: 16px;
 }
