@@ -73,6 +73,11 @@ li {
     
 }
 
+.first_list_block_header-main {
+    font-weight: 400;
+    font-size: 58px;
+}
+
 .first_list_block {
     padding-left: 155px;
     display: flex;
@@ -187,6 +192,8 @@ span {
 .second_list_header {
     margin-bottom: 61.61px;
     width: 650px;
+    font-size: 42px;
+    font-weight: 400;
 }
 
 .second_list {
@@ -317,6 +324,8 @@ hr {
     width: 300px;
     height: 218px;
     margin-right: 135px;
+    font-weight: 400;
+    font-size: 42px;
 }
 
 .second_list_about_list {
