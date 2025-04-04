@@ -3,6 +3,21 @@
     margin: 0; padding: 0;
 }
 
+.common_img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 155px;
+    padding-right: 155px;
+    
+}
+
 a {
     all: unset; 
 }
@@ -18,12 +33,22 @@ ul {
     align-items: center;
 } 
 
+.logo_bar_icon {
+    
+    Width: 30.74px;
+    Height: 34.73px
+}
+
+.logo_bar_name {
+    Width: 65.75px;
+    Height: 20.92px
+
+}
+
 header {
     width: 1440px;
     height: 75px;
-    padding-left: 155px;
     padding-top: 15px;
-    padding-right: 155px;
     display: flex;
     flex-direction: row;
     align-items:start;
@@ -79,10 +104,8 @@ li {
 }
 
 .first_list_block {
-    padding-left: 155px;
     display: flex;
     flex-direction: row;
-    padding-right: 155px;
     align-items: center;
     margin-bottom: 102px
 }
@@ -114,8 +137,18 @@ li {
     margin-right: 3px;
 }
 
+.first_list_block_link_img_size {
+    Width: 8.34px;
+    Height: 17.52px
+}
+
 .first_list_block_text {
     margin-right: 170.38px;
+}
+
+.first_list_block_link_pic_size{
+    Width: 452px;
+    Height: 422px
 }
 
 /* низ первой страницы */
@@ -133,10 +166,14 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 120px;
-    padding-right: 120px;
     gap: 60px;
 }
+
+.reputation_logos_logo-size {
+    width: 159px;
+    height: 34px;
+}
+
 
 .reputation_paragraph {
     text-align: center;
@@ -149,8 +186,6 @@ li {
     gap: 33px;
     justify-content: center;
     margin-bottom: 198.61px;
-    padding-left: 155px;
-    padding-right: 155px;
 }
 
 .multicolored_blocks-Yellow_block {
@@ -158,6 +193,12 @@ li {
     width: 355px;
     padding-top: 32px;
     padding-left: 32px;
+}
+
+.multicolored_blocks-Yellow_block_img{
+    Width: 34.74px;
+    Height: 44.93px;
+    margin-bottom: 12.87px
 }
 
 .multicolored_blocks-Blue_block {
@@ -168,6 +209,12 @@ li {
     padding-left: 32px;
 }
 
+.multicolored_blocks-Blue_block_img {
+    Width: 41.16px;
+    Height: 29.64px;
+    margin-bottom: 20.85px;
+}
+
 .multi-colored_blocks-Pink_block {
     width: 355px;
     height: 250px;
@@ -176,10 +223,18 @@ li {
     padding-left: 32px;
 }
 
-span {
+.multi-colored_blocks-Pink_block_img{
+    Width: 35.94px;
+    Height: 33.81px;
+    margin-bottom: 18.64px;
+}
+
+.multi-colored_blocks-span{
+    margin-bottom: 11px;
     font-weight: 400;
     font-size: 25px;
 }
+
 
 /* Вторая страница */
 
@@ -196,9 +251,6 @@ span {
     font-weight: 400;
 }
 
-.second_list {
-    padding-left: 155px;
-}
 
 .second_list_block-list {
     display: flex;
@@ -229,6 +281,11 @@ span {
     display: flex;
     flex-direction: row;
     margin-bottom: 16px;
+}
+
+.second_list_block-list-first_point_logo_and_header-img{
+    Width: 23.83px;
+    Height: 18.95px
 }
 
 .second_list_block-list-first_point_text {
@@ -315,8 +372,6 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding-left: 155px;
-    padding-right:155px ;
     margin-bottom: 119px;
 }
 
@@ -363,7 +418,6 @@ hr {
     flex-direction: row;
     align-items: center;
     color: #FFFFFF;
-    padding-left: 155px;
     padding-top: 80px;
     margin-bottom: 120px;
 }
@@ -409,7 +463,6 @@ hr {
 /* 4 страница */
 
 .fourth_list {
-    padding-left: 155px;
     margin-bottom: 120px;
 }
 
@@ -459,7 +512,6 @@ hr {
 
 .fifth_list {
     margin-bottom: 160px;
-    padding-left: 155px;
 }
 
 .fifth_list-top-text {
@@ -559,7 +611,6 @@ hr {
 
 .offer {
     width: 100%;
-    padding-left: 155px;
     padding-bottom: 127.98px;
 }
 
@@ -571,12 +622,7 @@ hr {
     padding-left: 64px;
 }
 
-/* Footer */
-
-footer {
-    padding-left: 155px;
-    padding-right: 155px;
-}
+ /* Footer */
 
 .footer_block {
     display: flex;
